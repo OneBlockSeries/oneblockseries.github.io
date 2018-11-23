@@ -3,17 +3,70 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://oneblockseries.github.io/amp/getting-started/</loc>
+    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oneblockseries.github.io/post/cover-example/</loc>
+    <lastmod>2018-05-28T14:09:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oneblockseries.github.io/hugo/getting-started/</loc>
+    <lastmod>2018-05-28T13:22:14+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oneblockseries.github.io/tags/amp/</loc>
+    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oneblockseries.github.io/amp/</loc>
+    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oneblockseries.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://oneblockseries.github.io/tags/hugo/</loc>
+    <lastmod>2018-05-28T13:22:14+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oneblockseries.github.io/</loc>
+    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oneblockseries.github.io/hugo/</loc>
+    <lastmod>2018-05-28T13:22:14+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oneblockseries.github.io/post/</loc>
+    <lastmod>2018-05-28T14:09:24+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oneblockseries.github.io/tags/</loc>
+    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oneblockseries.github.io/tags/theme/</loc>
+    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   

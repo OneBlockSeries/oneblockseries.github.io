@@ -10,24 +10,32 @@
     
 
     
-    <title>Hugo Blog Title (SEO Version)</title>
+    <title>Getting Started With Hugo</title>
 
     
     
 
 
 
-
+  
   
   <meta name="author" content="Huy Nguyen" />
-  <meta name="description" content="A light responsive Hugo AMP theme for blogger" />
+  <meta name="description" content="Step 1: Install Hugo brew install hugo  To verify your new install:
+hugo version  Step 2: Create a New Site hugo new site quickstart  The above will create a new Hugo site in a folder named quickstart.
+Step 3: Add a Theme See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme.
+cd quickstart;\ git init;\ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke;\ # Edit your config.">
 
   
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@twitter_username" />
-  <meta name="twitter:title" content="Hugo Blog Title (SEO Version)" />
-  <meta name="twitter:description" content="A light responsive Hugo AMP theme for blogger" />
-  <meta name="twitter:image" content="https://oneblockseries.github.io/img/avatar.jpg" />
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="Getting Started With Hugo" />
+    <meta name="twitter:description" content="Step 1: Install Hugo brew install hugo  To verify your new install:
+hugo version  Step 2: Create a New Site hugo new site quickstart  The above will create a new Hugo site in a folder named quickstart.
+Step 3: Add a Theme See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme.
+cd quickstart;\ git init;\ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke;\ # Edit your config." />
+    <meta name="twitter:image" content="https://oneblockseries.github.io/img/avatar.jpg" />
+  
 
 
 
@@ -35,7 +43,7 @@
 <meta name="generator" content="Hugo 0.37">
 
 
-<link rel="canonical" href="https://oneblockseries.github.io/">
+<link rel="canonical" href="https://oneblockseries.github.io/hugo/getting-started/">
 <link rel="alternative" href="/index.xml" title="Hugo LAMP" type="application/atom+xml">
 
 
@@ -87,7 +95,7 @@
     sizes="(max-width: 800px) 36px, 128px">
   </amp-img>
   
-    <h1 class="title"><a href="https://oneblockseries.github.io/" title="Hugo LAMP">Hugo LAMP</a></h1>
+    <h2 class="title"><a href="https://oneblockseries.github.io/" title="Hugo LAMP">Hugo LAMP</a></h2>
   
   <p class="subtitle">Light responsive AMP theme</p>
   <button class="menu-toggle" type="button" on="tap:sidebar.open">
@@ -156,80 +164,112 @@
 
 </header>
 
-  <section class="main entry-list">
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">Getting Started With Hugo</h1>
+      <p class="entry-meta"><span class="entry-time">May 28, 2018</span> 2 min read</p>
+    </header>
     
-    
-      
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://oneblockseries.github.io/amp/getting-started/" title="Getting Started with AMP" class="entry-link">Getting Started with AMP</a></h3>
-  </header>
 
-  <p class="entry-summary">Getting started with AMP Implement these key steps to get up and running with AMP:
- Create your AMP pages Validate your AMP pages Make your content discoverable  Using AMP day-to-day Keep your AMP momentum going with all the resources AMP has to offer.
-Create your AMP pages See the relevant sections below for: using a CMS, starting from scratch, or converting existing content</p>
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">May 31, 2018</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2foneblockseries.github.io%2famp%2fgetting-started%2f" title="Share on Facebook"></a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=Getting%20Started%20with%20AMP&amp;url=https%3a%2f%2foneblockseries.github.io%2famp%2fgetting-started%2f" title="Share on Twitter"></a>
-      <a class="share share-google" target="_blank" href="https://plus.google.com/share?url=Getting%20Started%20with%20AMP&amp;url=https%3a%2f%2foneblockseries.github.io%2famp%2fgetting-started%2f" title="Share on Google+"></a>
-    </div>
-  </footer>
+    <article class="post-content">
+
+<h2 id="step-1-install-hugo">Step 1: Install Hugo</h2>
+
+<pre><code class="language-bash">brew install hugo
+</code></pre>
+
+<p>To verify your new install:</p>
+
+<pre><code class="language-bash">hugo version
+</code></pre>
+
+<h2 id="step-2-create-a-new-site">Step 2: Create a New Site</h2>
+
+<pre><code class="language-bash">hugo new site quickstart
+</code></pre>
+
+<p>The above will create a new Hugo site in a folder named <code>quickstart</code>.</p>
+
+<h2 id="step-3-add-a-theme">Step 3: Add a Theme</h2>
+
+<p>See <a href="https://themes.gohugo.io/">themes.gohugo.io</a> for a list of themes to consider. This quickstart uses the beautiful <a href="https://themes.gohugo.io/gohugo-theme-ananke/">Ananke theme</a>.</p>
+
+<pre><code class="language-bash">cd quickstart;\
+git init;\
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke;\
+
+# Edit your config.toml configuration file
+# and add the Ananke theme.
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre>
+
+<h2 id="step-4-add-some-content">Step 4: Add Some Content</h2>
+
+<pre><code>hugo new posts/my-first-post.md
+</code></pre>
+
+<p>Edit the newly created content file if you want. Now, start the Hugo server with <a href="/getting-started/usage/#draft-future-and-expired-content">drafts</a> enabled:</p>
+
+<pre><code>▶ hugo server -D
+
+Started building sites ...
+Built site for language en:
+1 of 1 draft rendered
+0 future content
+0 expired content
+1 regular pages created
+8 other pages created
+0 non-page files copied
+1 paginator pages created
+0 categories created
+0 tags created
+total in 18 ms
+Watching for changes in /Users/bep/sites/quickstart/{data,content,layouts,static,themes}
+Serving pages from memory
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre>
+
+<p><strong>Navigate to your new site at <a href="http://localhost:1313/">http://localhost:1313/</a>.</strong></p>
+
+<h2 id="step-5-customize-the-theme">Step 5: Customize the Theme</h2>
+
+<p>Your new site already looks great, but you will want to tweak it a little before you release it to the public.</p>
+
+<h3 id="site-configuration">Site Configuration</h3>
+
+<p>Open up <code>config.toml</code> in a text editor:</p>
+
+<pre><code>baseURL = &quot;https://example.org/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;My New Hugo Site&quot;
+theme = &quot;ananke&quot;
+</code></pre>
+
+<p>Replace the <code>title</code> above with something more personal. Also, if you already have a domain ready, set the <code>baseURL</code>. Note that this value is not needed when running the local development server.</p>
+
+<p><strong>Tip:</strong> Make the changes to the site configuration or any other file in your site while the Hugo server is running, and you will see the changes in the browser right away.</p>
+
+<p>For theme specific configuration options, see the <a href="https://github.com/budparr/gohugo-theme-ananke">theme site</a>.</p>
+
+<p><strong>For further theme customization, see <a href="/themes/customizing/">Customize a Theme</a>.</strong></p>
 </article>
-
+    <footer class="post-footer">
       
-        <article class="entry-single">
-  
-    <a href="https://oneblockseries.github.io/post/cover-example/" title="Cover Post Example">
-      <amp-img alt="Cover Post Example"
-        height="244"
-        layout="fixed-height"
-        class="entry-cover"
-        src="/img/cover.jpg">
-      </amp-img>
-    </a>
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://oneblockseries.github.io/post/cover-example/" title="Cover Post Example" class="entry-link">Cover Post Example</a></h3>
-  </header>
-
-  <p class="entry-summary">Cover post example Cover post example</p>
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">May 28, 2018</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2foneblockseries.github.io%2fpost%2fcover-example%2f" title="Share on Facebook"></a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=Cover%20Post%20Example&amp;url=https%3a%2f%2foneblockseries.github.io%2fpost%2fcover-example%2f" title="Share on Twitter"></a>
-      <a class="share share-google" target="_blank" href="https://plus.google.com/share?url=Cover%20Post%20Example&amp;url=https%3a%2f%2foneblockseries.github.io%2fpost%2fcover-example%2f" title="Share on Google+"></a>
-    </div>
-  </footer>
-</article>
-
+      <ul class="post-tags">
+        
+          <li class="post-tag"><a href="/tags/hugo"><span class="tag">Hugo</span></a></li>
+        
+          <li class="post-tag"><a href="/tags/theme"><span class="tag">Theme</span></a></li>
+        
+      </ul>
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://oneblockseries.github.io/hugo/getting-started/" title="Getting Started With Hugo" class="entry-link">Getting Started With Hugo</a></h3>
-  </header>
-
-  <p class="entry-summary">Step 1: Install Hugo brew install hugo  To verify your new install:
-hugo version  Step 2: Create a New Site hugo new site quickstart  The above will create a new Hugo site in a folder named quickstart.
-Step 3: Add a Theme See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme.
-cd quickstart;\ git init;\ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke;\ # Edit your config.</p>
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">May 28, 2018</span> 2 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2foneblockseries.github.io%2fhugo%2fgetting-started%2f" title="Share on Facebook"></a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=Getting%20Started%20With%20Hugo&amp;url=https%3a%2f%2foneblockseries.github.io%2fhugo%2fgetting-started%2f" title="Share on Twitter"></a>
-      <a class="share share-google" target="_blank" href="https://plus.google.com/share?url=Getting%20Started%20With%20Hugo&amp;url=https%3a%2f%2foneblockseries.github.io%2fhugo%2fgetting-started%2f" title="Share on Google+"></a>
-    </div>
-  </footer>
-</article>
-
-      
-    
-    
+      <div class="sharing">
+        <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2foneblockseries.github.io%2fhugo%2fgetting-started%2f" title="Share on Facebook"></a>
+        <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=Getting%20Started%20With%20Hugo&amp;url=https%3a%2f%2foneblockseries.github.io%2fhugo%2fgetting-started%2f" title="Share on Twitter"></a>
+        <a class="share share-google" target="_blank" href="https://plus.google.com/share?url=Getting%20Started%20With%20Hugo&amp;url=https%3a%2f%2foneblockseries.github.io%2fhugo%2fgetting-started%2f" title="Share on Google+"></a>
+      </div>
+    </footer>
   </section>
   <footer class="footer">
   <p>Copyright © 2018 Hugo LAMP</p>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo LAMP</title>
-    <link>https://oneblockseries.github.io/</link>
-    <description>Recent content on Hugo LAMP</description>
+    <title>Theme on Hugo LAMP</title>
+    <link>https://oneblockseries.github.io/tags/theme/</link>
+    <description>Recent content in Theme on Hugo LAMP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 May 2018 07:11:59 +0700</lastBuildDate>
     
-	<atom:link href="https://oneblockseries.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oneblockseries.github.io/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>Getting started with AMP Implement these key steps to get up and running with AMP:
  Create your AMP pages Validate your AMP pages Make your content discoverable  Using AMP day-to-day Keep your AMP momentum going with all the resources AMP has to offer.
 Create your AMP pages See the relevant sections below for: using a CMS, starting from scratch, or converting existing content</description>
-    </item>
-    
-    <item>
-      <title>Cover Post Example</title>
-      <link>https://oneblockseries.github.io/post/cover-example/</link>
-      <pubDate>Mon, 28 May 2018 14:09:24 +0700</pubDate>
-      
-      <guid>https://oneblockseries.github.io/post/cover-example/</guid>
-      <description>Cover post example Cover post example</description>
     </item>
     
     <item>
